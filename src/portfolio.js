@@ -1,4 +1,4 @@
-import navpic from "./components/Access/JK1.png"
+import navpic from "./components/Access/JK.png"
 import resume from "./components/Access/resume.pdf"
 
 const header = {

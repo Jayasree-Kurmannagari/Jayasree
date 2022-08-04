@@ -3,6 +3,7 @@
 import { home } from '../../portfolio'
 import './Home.css'
 
+
 const Home = () => {
   const {name, role, description, resume } = home
 
@@ -19,13 +20,13 @@ const Home = () => {
       <p className='home__desc'>{description && description}</p>
 
       <div className='home__contact center'>
-        {resume && (
-          <a href={resume}>
+        
+          <a href= { resume } target="_blank" rel="noopener noreferrer">
             <span type='button' className='btn btn--outline'>
               Resume
             </span>
           </a>
-        )}
+        
 
         {/* {social && (
           <>

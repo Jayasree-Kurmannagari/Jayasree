@@ -1,5 +1,5 @@
 import navpic from "./components/Access/JK1.png"
-
+import resume from "./components/Access/resume.pdf"
 
 const header = {
   homepage: 'https://Jayasree-Kurmannagari.github.io/Jayasree',
@@ -11,7 +11,7 @@ const home = {
   role: 'Full stack developer',
   description:
     "I'm  a software engineer specialized in building things on the internet with a wide range of tools. I'm a Blogger and a CSS artist, currently working on 5G and Networking.",
-  resume: 'https://example.com',
+  resume: resume
 }
 
 

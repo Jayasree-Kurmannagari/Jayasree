@@ -20,8 +20,8 @@ const Home = () => {
       <p className='home__desc'>{description && description}</p>
 
       <div className='home__contact center'>
-        
-          <a href= { resume } target="_blank" rel="noopener noreferrer">
+          <a href={process.env.PUBLIC_URL + '/resume.pdf'}  target="_blank" rel="noopener noreferrer">
+          {/* <a href= { resume } target="_blank" rel="noopener noreferrer"> */}
             <span type='button' className='btn btn--outline'>
               Resume
             </span>

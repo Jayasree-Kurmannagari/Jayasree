@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/Jayasree/static/css/main.8f462e53.css",
-    "main.js": "/Jayasree/static/js/main.d4174ee2.js",
+    "main.js": "/Jayasree/static/js/main.4bc9c625.js",
+    "static/media/resume.pdf": "/Jayasree/static/media/resume.3844110acf936c160afb.pdf",
     "static/media/JK1.png": "/Jayasree/static/media/JK1.37f52b53ba71a23f4e5c.png",
     "index.html": "/Jayasree/index.html",
     "main.8f462e53.css.map": "/Jayasree/static/css/main.8f462e53.css.map",
-    "main.d4174ee2.js.map": "/Jayasree/static/js/main.d4174ee2.js.map"
+    "main.4bc9c625.js.map": "/Jayasree/static/js/main.4bc9c625.js.map"
   },
   "entrypoints": [
     "static/css/main.8f462e53.css",
-    "static/js/main.d4174ee2.js"
+    "static/js/main.4bc9c625.js"
   ]
 }

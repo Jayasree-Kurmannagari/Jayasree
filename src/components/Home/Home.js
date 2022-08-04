@@ -2,7 +2,7 @@ import { home } from "../../portfolio";
 import "./Home.css";
 
 const Home = () => {
-  const { name, role, description, resume } = home;
+  const { name, role, description } = home;
 
   return (
     <div className="home center flex_item">
@@ -17,13 +17,11 @@ const Home = () => {
         <p className="home__desc">{description && description}</p>
 
         <div className="home__contact center">
-          {resume && (
-            <a href={resume} target="_blank" rel="noopener noreferrer">
+            <a href= './resume.pdf' target="_blank" rel="noopener noreferrer">
               <span type="button" className="btn btn--outline">
                 Resume
               </span>
             </a>
-          )}
         </div>
       </div>
     </div>

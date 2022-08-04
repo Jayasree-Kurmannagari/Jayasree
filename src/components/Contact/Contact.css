@@ -1,0 +1,15 @@
+.contact {
+  flex-direction: column;
+}
+
+.contact__list{
+  display: flex;
+}
+
+.contact__item{
+  padding:1em;
+}
+
+.contact__icon{
+  font-size: 2em;
+}

@@ -1,0 +1,59 @@
+.home {
+  flex-direction: column;
+  margin-top: 3em;
+}
+
+.home__intro{
+  color:var(--clr-highlight);
+}
+
+.home__name {
+  /* color: var(--clr-primary); */
+  /* font-size: clamp(40px, 8vw, 80px); */
+  font-size:clamp(35px, 6vw, 70px);
+}
+
+.home__role {
+  color: var(--clr-primary);
+  /* font-size: clamp(40px, 8vw, 80px); */
+  font-size:clamp(35px, 6vw, 70px);
+}
+
+.home__desc {
+  font-size: 1rem;
+  max-width: 600px;
+}
+
+.home__desc,
+.home__contact {
+  margin-top: 1.4em;
+}
+
+.home .link--icon {
+  margin-right: 0.8em;
+}
+
+.home .btn--outline {
+  margin-right: 1em;
+}
+
+
+.home__description{
+  width:100%;
+}
+
+.home__image{
+  width:30%;
+}
+
+
+
+.flex_item{
+  flex-direction: row;
+}
+@media (max-width: 600px) {
+  .app .home {
+    align-items: flex-start;
+    margin-top: 2em;
+  }
+}

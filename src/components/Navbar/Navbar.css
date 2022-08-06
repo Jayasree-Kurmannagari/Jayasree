@@ -26,6 +26,7 @@
     width: min(75vw,400px);
     height: 100%;
     z-index: 2;
+    margin-right: 0;
   }
 
   .nav__list-item {

@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer = () => (
   <footer className='footer'>
     <a
-      href='https://Jayasree-Kurmannagari.github.io/Jayasree'
+      href='#top'
       className='link footer__link'
     >
       Created By Jayasree Kurmannagari
